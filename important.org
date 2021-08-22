@@ -1,0 +1,54 @@
+#+title: Shubhi Prep
+#+author: Shubharthak
+#+date: 05-08-2021
+* <2021-08-05 Thu>
+** How to get a Job at the Big 4
+*** Only looking for Good programmer (Even if you learn C++/Java is more than enough ) 
+*** STEP1 : Get interview somehow
+**** Get a great resume
+**** Don't need big 2pages resume.
+**** Mention a great Project : Before Mentioning any project in your resume, Practice small projects as much you can(Work on your side projects)
+**** If not able to do side projects, do Hackathon
+**** Cover letters are good for Small companies like Snapchat
+**** Do Programming Challenges to get Interview if not get interview you can add it on your resume
+     
+*** STEP2 : Do well in interview   
+**** for internships :-
+***** All 4 come onsite
+***** Amazon  & Google : 2 x 45 minutes interviews
+***** Facebook & Microsoft : 1 x 45 minutes interview
+****** Facebook flies you out for 1 x 45 mintues interview( give tour of campus too ) 
+****** Microsoft flies you out for Redmond for 4 x 45 minutes interviews 
+***** Google does host matching interviews
+**** for full time :-
+***** 1 -2 * 45 minutes phone screen
+***** 3 - 4 * 45 minutes onsite interviews 
+**** What will they ask you ?
+***** Coding Questions 
+**** 2 Bibles of programming interview :-
+***** Cracking the Coding Interview ( CtCI)( For Advanced ) 
+***** Programming Interview Exposed ( Pie) ( For Beginners )
+**** No Brain Teasers
+**** Do OOPs DESIGN Questions (But don't put on much time on it )
+**** Do Data Structures & Algorithims 
+**** Networking & Databases questions depend on your Resume / Position you are applying on Big 4.
+**** Behaviour questions are Asked later on ( not much a priority ) 
+**** Do Leet code, glassdoor, careercup , hackerrank , top coder , G4G
+* <2021-08-07 Sat>
+** Array:
+*** Definition : Contiguous area of memory consisting of equal-size elements indexed by contiguous integers.
+*** Special : Constant Time Access to read and write.
+**** Array_address + element size * ( i  - first_index) ( Compile do this for  us)
+*** Multi-Dimensional Array : 
+**** Row Major ordering/indexing : First take rows then columns of each row then next row 
+**** Column major ordering : first column then second column 
+*** Times for common operation : 
+**** read element : O(1) 
+**** write element : O(1)
+**** add element at end of array : O(1)
+**** Remove element at end of array : O(1)
+**** Remove/ Insert at begining : O(n)
+**** Remove/ Insert at middle : O(n) 
+*** Great if add/remove at the end but expensive while removing/adding from middle/begining
+ 
+    
