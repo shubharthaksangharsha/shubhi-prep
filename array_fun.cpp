@@ -50,14 +50,13 @@ bool insert_middle(int arr[], int & length, int val) {
 
   if (length >= MAXSIZE) {
     return false;
-  } else {
-    int middle = length / 2;
-    length++;
-    for (int i = length; i >= middle; i--) {
-      arr[i + 1] = arr[i];
-    }
-    arr[middle] = val;
   }
+  int middle = length / 2;
+  length++;
+  for (int i = length; i >= middle; i--) {
+    arr[i + 1] = arr[i];
+  }
+  arr[middle] = val;
   return true;
 }
 bool delete_first(int arr[], int & length) {
@@ -78,21 +77,18 @@ bool delete_first(int arr[], int & length) {
   return true;
 }
 
-tuple < bool, int, int > find_last(int arr[], int & length) {
-  /* Returns the last value of the array and its index 
-     if array is empty, it will return false ,-1 and -1 as index and value respectively.
-     else return true , index and value respectively.
+int find_last(int arr[], int & length) {
+  /* Returns the index of last element in the array
+     if array is empty, it will return -1 
+     else return length -1
      Parameter : Array, length(to check array is not empty)
-     Returntype: tuple(bool, int, int) */
+     Returntype: int */
 
-  tuple < bool, int, int > last;
   if (length == 0) {
-    last = make_tuple(false, -1, -1);
-    return last;
-  } else {
-    last = make_tuple(true, length - 1, arr[length - 1]);
-    return last;
+    return -1;
   }
+  return length-1;
+  
 }
 int main() {
   int length = 0;
@@ -140,7 +136,7 @@ int main() {
       if (length == 0) {
         cout << "Array is Empty!" << endl;
       } else {
-        cout << "Last element is : " << get < 2 > (find_last(arr, length)) << " and it's location(index) is :  " << get < 1 > (find_last(arr, length)) << endl;
+        cout << "Last element is : " << arr[find_last(arr, length)] << " and it's location(index) is :  " << find_last(arr, length) << endl;
       }
       break;
     case 5:
