@@ -3,7 +3,7 @@
 #include<tuple>
 
 using namespace std;
-#define MAXSIZE 500
+#define MAXSIZE 5
 void input(int arr[], int & length) {
   /*Write elements into the array
     Parameters : array, length as a reference(to maintain the length)
@@ -38,6 +38,7 @@ void display(int * arr, int length) {
     for (int i = 0; i < length; i++) {
       cout << arr[i] << " ";
     }
+    cout<<"length of array: " <<length<<endl;
     cout << endl;
   }
 }
@@ -53,7 +54,7 @@ bool insert_middle(int arr[], int & length, int val) {
   }
   int middle = length / 2;
   length++;
-  for (int i = length; i >= middle; i--) {
+  for (int i = length-2; i >= middle; i--) {
     arr[i + 1] = arr[i];
   }
   arr[middle] = val;
@@ -68,12 +69,12 @@ bool delete_first(int arr[], int & length) {
 
   if (length == 0) {
     return false;
-  } else {
-    for (int i = 1; i <= length - 1; i++) {
-      arr[i - 1] = arr[i];
-    }
-    length--;
+  } 
+  for (int i = 1; i <= length - 1; i++) {
+    arr[i - 1] = arr[i];
   }
+  length--;
+
   return true;
 }
 
