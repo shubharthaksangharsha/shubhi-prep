@@ -42,7 +42,7 @@ void display(int * arr, int length) {
   }
 }
 
-bool insert_Middle(int arr[], int & length, int val) {
+bool insert_middle(int arr[], int & length, int val) {
   /*Insert value at the middle of the array
     If array is greater than MAXSIZE, it won't do anything and return false
     Parameter: Array, length(to maintain array size), value(value to be inserted)
@@ -60,7 +60,7 @@ bool insert_Middle(int arr[], int & length, int val) {
   }
   return true;
 }
-bool delete_First(int arr[], int & length) {
+bool delete_first(int arr[], int & length) {
   /* Delete the first element of the array
      If array is empty, it won't do anything and return false.
      else it will delete the first element and return true.
@@ -78,7 +78,7 @@ bool delete_First(int arr[], int & length) {
   return true;
 }
 
-tuple < bool, int, int > find_Last(int arr[], int & length) {
+tuple < bool, int, int > find_last(int arr[], int & length) {
   /* Returns the last value of the array and its index 
      if array is empty, it will return false ,-1 and -1 as index and value respectively.
      else return true , index and value respectively.
@@ -126,21 +126,21 @@ int main() {
         int val;
         cout << "Enter the value you want to insert in middle: ";
         cin >> val;
-        insert_Middle(arr, length, val);
+        insert_middle(arr, length, val);
       }
       break;
     case 3:
       if (length == 0) {
         cout << " NO elements in the array!, Operation can't be performed" << endl;
       } else {
-        delete_First(arr, length);
+        delete_first(arr, length);
       }
       break;
     case 4:
       if (length == 0) {
         cout << "Array is Empty!" << endl;
       } else {
-        cout << "Last element is : " << get < 2 > (find_Last(arr, length)) << " and it's location(index) is :  " << get < 1 > (find_Last(arr, length)) << endl;
+        cout << "Last element is : " << get < 2 > (find_last(arr, length)) << " and it's location(index) is :  " << get < 1 > (find_last(arr, length)) << endl;
       }
       break;
     case 5:
