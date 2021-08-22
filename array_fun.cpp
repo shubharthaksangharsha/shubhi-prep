@@ -1,13 +1,19 @@
 #include<iostream>
 
+#include<tuple>
+
 using namespace std;
 #define MAXSIZE 500
-void input(int arr[], int & length, int size) {
+void input(int arr[], int & length) {
+  /*Write elements into the array
+    Parameters : array, length as a reference(to maintain the length)
+    Returntype : void*/
+
   if (length == 0) {
     int val;
     cout << "Enter a value till you want to take input: ";
     cin >> val;
-    if (val > size) {
+    if (val > MAXSIZE) {
       cout << "Number entered is greater than size of the array!" << endl;
     } else {
       cout << "Enter the elements of the array:-\n";
@@ -22,6 +28,10 @@ void input(int arr[], int & length, int size) {
 }
 
 void display(int * arr, int length) {
+  /*Display elements of the array
+    Parameters: array, length(display till the length )
+    Returntype: void*/
+
   if (length == 0) {
     cout << "Array is empty!" << endl;
   } else {
@@ -32,39 +42,56 @@ void display(int * arr, int length) {
   }
 }
 
-void insert_Middle(int arr[], int & length, int size) {
-  if (length >= size) {
-    cout << "Out of capacity!, operation can't be performed" << endl;
+bool insert_Middle(int arr[], int & length, int val) {
+  /*Insert value at the middle of the array
+    If array is greater than MAXSIZE, it won't do anything and return false
+    Parameter: Array, length(to maintain array size), value(value to be inserted)
+    Returntype: bool */
+
+  if (length >= MAXSIZE) {
+    return false;
   } else {
     int middle = length / 2;
-    int val;
     length++;
     for (int i = length; i >= middle; i--) {
       arr[i + 1] = arr[i];
     }
-    cout << "Enter the value you want to insert in middle: ";
-    cin >> val;
     arr[middle] = val;
   }
+  return true;
 }
-void delete_First(int arr[], int & length) {
+bool delete_First(int arr[], int & length) {
+  /* Delete the first element of the array
+     If array is empty, it won't do anything and return false.
+     else it will delete the first element and return true.
+     Parameter: Array, length(to maintain array size).
+     Returntype: bool */
+
   if (length == 0) {
-    cout << " NO elements in the array!, Operation can't be performed" << endl;
+    return false;
   } else {
     for (int i = 1; i <= length - 1; i++) {
       arr[i - 1] = arr[i];
     }
     length--;
   }
+  return true;
 }
 
-void find_Last(int arr[], int & length, int size) {
+tuple < bool, int, int > find_Last(int arr[], int & length) {
+  /* Returns the last value of the array and its index 
+     if array is empty, it will return false ,-1 and -1 as index and value respectively.
+     else return true , index and value respectively.
+     Parameter : Array, length(to check array is not empty)
+     Returntype: tuple(bool, int, int) */
+
+  tuple < bool, int, int > last;
   if (length == 0) {
-    cout << "Array is Empty!" << endl;
-  } else if (length > size) {
-    cout << "Out of capacity!" << endl;
+    last = make_tuple(false, -1, -1);
+    return last;
   } else {
-    cout << "Last element is : " << arr[length - 1] << " and it's location is :  " << length - 1 << "index" << endl;
+    last = make_tuple(true, length - 1, arr[length - 1]);
+    return last;
   }
 }
 int main() {
@@ -86,20 +113,35 @@ int main() {
     cin >> choice;
     switch (choice) {
     case 0:
-      input(arr, length, size);
+      input(arr, length);
       break;
     case 1:
       cout << "Displaying Array:-\n";
       display(arr, length);
       break;
     case 2:
-      insert_Middle(arr, length, size);
+      if (length >= MAXSIZE) {
+        cout << "Out of capacity!, operation can't be performed" << endl;
+      } else {
+        int val;
+        cout << "Enter the value you want to insert in middle: ";
+        cin >> val;
+        insert_Middle(arr, length, val);
+      }
       break;
     case 3:
-      delete_First(arr, length);
+      if (length == 0) {
+        cout << " NO elements in the array!, Operation can't be performed" << endl;
+      } else {
+        delete_First(arr, length);
+      }
       break;
     case 4:
-      find_Last(arr, length, size);
+      if (length == 0) {
+        cout << "Array is Empty!" << endl;
+      } else {
+        cout << "Last element is : " << get < 2 > (find_Last(arr, length)) << " and it's location(index) is :  " << get < 1 > (find_Last(arr, length)) << endl;
+      }
       break;
     case 5:
       return 0;
@@ -109,6 +151,6 @@ int main() {
       break;
     }
   }
-  return 0;
 
+  return 0;
 }
