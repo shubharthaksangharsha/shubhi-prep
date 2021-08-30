@@ -13,6 +13,8 @@ Below is the Leetcode and HackerRank Solutions.
 |5|  Merge Sorted Array|[Problem](https://leetcode.com/problems/merge-sorted-array/) |[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/merge_sorted_array2.cpp)| Easy| Yes |
 |6|   Remove Element| [Problem](https://leetcode.com/problems/remove-element/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/remove_element.cpp) | Easy|
 |7|   Remove Duplicates from Sorted Array| [Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/remove_duplicate.cpp)|Easy| Yes |
+|8| Replace Elements with Greatest Element on Right Side | [Problem](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)| [Solution] (https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/greatest.cpp) | Easy| | 
+
 
 ## HackerRank Solution
 ## Array
