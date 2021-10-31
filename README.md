@@ -15,10 +15,10 @@ Below is the Leetcode and HackerRank Solutions.
 |7|   Remove Duplicates from Sorted Array| [Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/remove_duplicate.cpp)|Easy| Yes |
 |8| Mountain Array | [Problem](https://leetcode.com/problems/valid-mountain-array/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/mountain_array.cpp) |Easy| Yes| 
 |9| Replace Elements with Greatest Element on Right Side Inplace | [Problem](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/greatest.cpp) |Easy| | 
-|10|Remove Duplicates from Sorted Array | [Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |[Solution](http://sprunge.us/SlL8Sp?cpp)|Medium| |
-|11|Move Zeros Inplace|[Problem](https://leetcode.com/problems/move-zeroes/) | [Solution](http://sprunge.us/mFsvmc?cpp)|Medium| Yes|
-|12|Sort Array By Parity Inplace| [Problem](https://leetcode.com/problems/sort-array-by-parity/)| [Solution](http://sprunge.us/DEikKK?cpp)| Easy| Yes|
-|13|Remove Element Inplace|[Problem](https://leetcode.com/problems/remove-element/) | [Solution](http://sprunge.us/OKdObx?cpp)|Easy| |
+|10|Remove Duplicates from Sorted Array | [Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/remove_duplicate.cpp)|Medium| |
+|11|Move Zeros Inplace|[Problem](https://leetcode.com/problems/move-zeroes/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/move_zeroes.cpp)|Medium| Yes|
+|12|Sort Array By Parity Inplace| [Problem](https://leetcode.com/problems/sort-array-by-parity/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/sort_parity.cpp)| Easy| Yes|
+|13|Remove Element Inplace|[Problem](https://leetcode.com/problems/remove-element/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/remove_element_inplace.cpp)|Easy| |
 
 ## HackerRank Solution
 ## Array
