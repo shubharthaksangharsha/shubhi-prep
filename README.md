@@ -19,6 +19,8 @@ Below is the Leetcode and HackerRank Solutions.
 |11|Move Zeros Inplace|[Problem](https://leetcode.com/problems/move-zeroes/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/move_zeroes.cpp)|Medium| Yes|
 |12|Sort Array By Parity Inplace| [Problem](https://leetcode.com/problems/sort-array-by-parity/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/sort_parity.cpp)| Easy| Yes|
 |13|Remove Element Inplace|[Problem](https://leetcode.com/problems/remove-element/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/remove_element_inplace.cpp)|Easy| |
+|14|Two Sum | [Problem](https://leetcode.com/problems/two-sum/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/twosum.cpp) | Easy| Yes| 
+|15|Search Insert Position|[Problem](https://leetcode.com/problems/search-insert-position/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/search_insert_position.cpp) | Medium | |
 
 ## HackerRank Solution
 ## Array
