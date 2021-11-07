@@ -23,6 +23,8 @@ Below is the Leetcode and HackerRank Solutions.
 |15|Search Insert Position|[Problem](https://leetcode.com/problems/search-insert-position/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/search_insert_position.cpp) | Medium | |
 |16|Maximum SubArray| [Problem](https://leetcode.com/problems/maximum-subarray/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/max_sub_array.cpp)| Medium| Yes |
 |17|PlusOne Array| [Problem](https://leetcode.com/problems/plus-one/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/oneplus.cpp)| Easy | |
+|18|  Best Time to Buy and Sell Stock 1 | [Problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/buy_sell.cpp) | Easy | Yes |
+|19 | Contains Duplicate| [Problem](https://leetcode.com/problems/contains-duplicate/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/contains_duplicate.cpp) | Easy | | 
 
 ## HackerRank Solution
 ## Array
