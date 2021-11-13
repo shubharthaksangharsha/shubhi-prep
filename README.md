@@ -25,6 +25,7 @@ Below is the Leetcode and HackerRank Solutions.
 |17|PlusOne Array| [Problem](https://leetcode.com/problems/plus-one/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/oneplus.cpp)| Easy | |
 |18|  Best Time to Buy and Sell Stock 1 | [Problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/buy_sell.cpp) | Easy | Yes |
 |19 | Contains Duplicate| [Problem](https://leetcode.com/problems/contains-duplicate/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/contains_duplicate.cpp) | Easy | | 
+|20| Missing Number | [Problem](https://leetcode.com/problems/missing-number/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/missing.cpp) | Medium | Yes|
 
 ## HackerRank Solution
 ## Array
