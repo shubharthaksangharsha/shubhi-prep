@@ -26,6 +26,8 @@ Below is the Leetcode and HackerRank Solutions.
 |18|  Best Time to Buy and Sell Stock 1 | [Problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/buy_sell.cpp) | Easy | Yes |
 |19 | Contains Duplicate| [Problem](https://leetcode.com/problems/contains-duplicate/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/contains_duplicate.cpp) | Easy | | 
 |20| Missing Number | [Problem](https://leetcode.com/problems/missing-number/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/missing.cpp) | Medium | Yes|
+|21| Majority Element| [Problem](https://leetcode.com/problems/majority-element/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/majority_element.cpp) | Medium| Yes|
+|22| Pivot Index| [Problem](https://leetcode.com/problems/find-pivot-index/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/pivotindex.cpp)| Easy| |
 
 ## HackerRank Solution
 ## Array
