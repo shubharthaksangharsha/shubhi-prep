@@ -28,6 +28,7 @@ Below is the Leetcode and HackerRank Solutions.
 |20| Missing Number | [Problem](https://leetcode.com/problems/missing-number/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/missing.cpp) | Medium | Yes|
 |21| Majority Element| [Problem](https://leetcode.com/problems/majority-element/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/majority_element.cpp) | Medium| Yes|
 |22| Pivot Index| [Problem](https://leetcode.com/problems/find-pivot-index/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/pivotindex.cpp)| Easy| |
+|21| Binary Search| [Problem](https://leetcode.com/problems/binary-search/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/binarySearch.cpp)| Easy| | 
 
 ## HackerRank Solution
 ## Array
