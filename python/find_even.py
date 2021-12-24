@@ -11,6 +11,6 @@ def input_list(nums):
     n = int(input())
     for i in range(n):
         nums.append(int(input()))    
-        input_list(nums)
-        print(nums)
-        print(findNumbers(nums))
+input_list(nums)
+print(nums)
+print(findNumbers(nums))
