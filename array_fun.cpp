@@ -1,9 +1,7 @@
 #include<iostream>
 
-#include<tuple>
-
 using namespace std;
-#define MAXSIZE 5
+#define MAXSIZE 500
 void input(int arr[], int & length) {
   /*Write elements into the array
     Parameters : array, length as a reference(to maintain the length)
@@ -38,7 +36,6 @@ void display(int * arr, int length) {
     for (int i = 0; i < length; i++) {
       cout << arr[i] << " ";
     }
-    cout<<"length of array: " <<length<<endl;
     cout << endl;
   }
 }

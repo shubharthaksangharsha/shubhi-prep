@@ -14,6 +14,7 @@ void display(vector<int>ivec){
 }
  vector<int> twoSum(vector<int>& nums, int target) {
         for(int i = 0; i < nums.size(); i++){
+            //O(N^2) Approach i.e Brute Force
             for(int j = i+1; j < nums.size() ; j++){
                 if(nums[j] == target - nums[i]){
                     vector<int>ivec;
