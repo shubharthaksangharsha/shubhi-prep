@@ -7,6 +7,6 @@ def containsDuplicate(nums):
 #        if x in myhashset:
 #            return True
 #        myhashset.add(x)
-    
+#    return False
     
     

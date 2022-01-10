@@ -1,5 +1,6 @@
 def singleNumber(nums):
-    #method1 With extra space: return 2*sum(set(nums))- sum(nums) 
+    #method1 With extra space: return 2*sum(set(nums))- sum(nums)
+    
     #method2 : Without Extra space
     res=0
     for x in nums:
@@ -8,7 +9,7 @@ def singleNumber(nums):
 nums =[]
 [nums.append(int(input())) for x in range(int(input()))]
 print(singleNumber(nums))
-
+#[4,1,1,2,2,3,3]
 #Some Important Properties of XOR function :-
 '''
 XOR is a binary operation, it stands for "exclusive or", that is to say the resulting bit evaluates to one if only exactly one of the bits is set.
