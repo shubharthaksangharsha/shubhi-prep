@@ -38,7 +38,7 @@ Below is the Leetcode and HackerRank Solutions.
 |2|Happy Number|[Problem](https://leetcode.com/problems/happy-number/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_set/happy_number.py)|Easy| |
 |3|Single Number|[Problem](https://leetcode.com/problems/single-number/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_set/single_number.py)|Easy| |
 |4|First Unique Character|[Problem](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_map/first_unique_character.py)|Easy| |
-|5|Intersection of Two Arrays|[Problem](https://leetcode.com/problems/intersection-of-two-arrays/)|[Solution]https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_set/intersection_two_arrays.py)|Easy| |
+|5|Intersection of Two Arrays|[Problem](https://leetcode.com/problems/intersection-of-two-arrays/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_set/intersection_two_arrays.py)|Easy| |
 |6|Intersection of Two Arrays II|[Problem](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_map/intersection_two_arrays_II.py)|Easy| |
 |7|Two Sum|[Problem](https://leetcode.com/problems/two-sum/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_map/two_sum.py)|Easy| |
 |8|Isomorphic Strings|[Problem](https://leetcode.com/problems/isomorphic-strings/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_map/isomorphic_string.py)|Easy| |
