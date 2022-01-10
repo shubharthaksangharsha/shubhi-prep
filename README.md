@@ -30,6 +30,24 @@ Below is the Leetcode and HackerRank Solutions.
 |22| Pivot Index| [Problem](https://leetcode.com/problems/find-pivot-index/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/pivotindex.cpp)| Easy| |
 |21| Binary Search| [Problem](https://leetcode.com/problems/binary-search/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/arrays/binarySearch.cpp)| Easy| | 
 
+##HashMap and HashSet(In Python)
+|S.no | Title      | Problem        | Solution      |  Difficulty | Revisit Require |
+|-----:|------------|--------------:|-------------:| ----------:|------------------:|
+|1||Contains Duplicate|[Problem](https://leetcode.com/problems/contains-duplicate/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/max_cons.cpp)|Easy| |
+|2||Happy Number|[Problem](https://leetcode.com/problems/happy-number/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/max_cons.cpp)|Easy| |
+|3||Single Number|[Problem](https://leetcode.com/problems/single-number/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/max_cons.cpp)|Easy| |
+|4||First Unique Character|[Problem](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/max_cons.cpp)|Easy| |
+|5|Intersection of Two Arrays|[Problem](https://leetcode.com/problems/intersection-of-two-arrays/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/max_cons.cpp)|Easy| |
+|6|Intersection of Two Arrays II|[Problem](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/max_cons.cpp)|Easy| |
+|7|Two Sum|[Problem](https://leetcode.com/problems/two-sum/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/max_cons.cpp)|Easy| |
+|8|Isomorphic Strings|[Problem](https://leetcode.com/problems/isomorphic-strings/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/max_cons.cpp)|Easy| |
+|9|Minimum Index Sum of Two Lists|[Problem](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/max_cons.cpp)|Easy| |
+
+
+
+
+
+
 ## HackerRank Solution
 ## Array
 |S.no | Title | Problem | Solution | Difficulty | Revisit Require |
