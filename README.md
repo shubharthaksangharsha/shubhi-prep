@@ -43,7 +43,7 @@ Below is the Leetcode and HackerRank Solutions.
 |7|Two Sum|[Problem](https://leetcode.com/problems/two-sum/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_map/two_sum.py)|Easy| |
 |8|Isomorphic Strings|[Problem](https://leetcode.com/problems/isomorphic-strings/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_map/isomorphic_string.py)|Easy| |
 |9|Minimum Index Sum of Two Lists|[Problem](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_map/minimum_index.py)|Easy| |
-|10|Contains Duplicate II|[Problem](https://leetcode.com/problems/contains-duplicate-ii/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_map/minimum_index.py)|Easy| |
+|10|Contains Duplicate II|[Problem](https://leetcode.com/problems/contains-duplicate-ii/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_map/contains_duplicate_II.py)|Easy| |
 
 
 
