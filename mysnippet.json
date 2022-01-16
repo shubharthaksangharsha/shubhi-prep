@@ -1,0 +1,41 @@
+{
+	// Place your snippets for cpp here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// Write this code in the cpp.json file
+
+	"cpp snippets":
+	{
+		"prefix" : "neo",
+				"body" : [
+					"#include<iostream>",
+					"#include<vector>",
+					"using namespace std;",
+					"void input(vector<int>&nums){",
+					"   for(auto &i : nums){",
+					"       cin >> i;",
+					"   }",
+					"}",
+					"void display(vector<int>nums){",
+					"    for(auto const i : nums){",
+					"        cout << i << ' ' ;", 
+					"    }",
+					"    cout << endl;",
+					"}",					
+					"int main()",
+					"{",
+					"    int n;",
+					"    cin >> n;",
+					"    vector<int>nums(n);",
+					"    input(nums);",
+					"    display(nums);",
+					"    return 0;",
+					"}"
+
+				],
+							"description" : "to produce the vector io for cpp"
+	}
+}
+
