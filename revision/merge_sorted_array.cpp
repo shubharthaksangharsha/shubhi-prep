@@ -13,23 +13,23 @@ void display(vector<int>nums){
     cout << endl;
 }
 void merge(vector<int>&nums1, int m , vector<int>&nums2, int n){
-    //Method 1 : using O(m+n) Time Complexity:-    
-    m--, n--;
-    int index = nums1.size() - 1 ;
-    while(index >= 0){        
-        if(m < 0 ){
-            nums1[index] = nums2[n--];
-        } else if(n < 0 ){
-            nums1[index] = nums1[m--];
-        } else{
-            if(nums1[m] > nums2[n]){
+        //Method 1 : using O(m+n) Time Complexity:-    
+        m--, n--;
+        int index = nums1.size() - 1 ;
+        while(index >= 0){        
+            if(m < 0 ){
+                nums1[index] = nums2[n--];
+            } else if(n < 0 ){
                 nums1[index] = nums1[m--];
             } else{
-                nums1[index] = nums2[n--];
+                if(nums1[m] > nums2[n]){
+                    nums1[index] = nums1[m--];
+                } else{
+                    nums1[index] = nums2[n--];
+                }
             }
+            index--;
         }
-        index--;
-    }
 }
 int main()
 {
