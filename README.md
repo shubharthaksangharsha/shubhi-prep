@@ -44,6 +44,10 @@ Below is the Leetcode and HackerRank Solutions.
 |8|Isomorphic Strings|[Problem](https://leetcode.com/problems/isomorphic-strings/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_map/isomorphic_string.py)|Easy| |
 |9|Minimum Index Sum of Two Lists|[Problem](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_map/minimum_index.py)|Easy| |
 |10|Contains Duplicate II|[Problem](https://leetcode.com/problems/contains-duplicate-ii/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_map/contains_duplicate_II.py)|Easy| |
+|11|Group Anagrams  |[Problem](https://leetcode.com/problems/group-anagrams/solution/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_map/group_anagrams.py)|Easy| |
+|12|Relative Rank|[Problem](https://leetcode.com/problems/relative-ranks/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_map/relative_ranks.py)|Easy| |
+|13|Valid Sudoku|[Problem](https://leetcode.com/problems/valid-sudoku/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_map/valid_sudoku.py)|Easy| |
+|14|Jewels and Stones|[Problem](https://leetcode.com/problems/jewels-and-stones/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_map/jewels_and_stones.py)|Easy| |
 
 
 
