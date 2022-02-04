@@ -1,0 +1,2 @@
+obj->deleteAtIndex(0);
+    
