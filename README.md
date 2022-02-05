@@ -51,6 +51,11 @@ Below is the Leetcode and HackerRank Solutions.
 |14|Jewels and Stones|[Problem](https://leetcode.com/problems/jewels-and-stones/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/python/hash_map/jewels_and_stones.py)|Easy| |
 
 
+## Linked List
+|S.no | Title | Problem | Solution | Difficulty | Revisit Require |
+|----:|-------|:-------:|---------:|-----------:|----------------:|
+|1|Design Linked List| [Problem](https://leetcode.com/problems/design-linked-list/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/hacker-rank/reverse_array.cpp)| Easy| |
+|2|Sum of Hour Glass| [Problem](https://www.hackerrank.com/challenges/2d-array/problem)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/hacker-rank/hourglass.cpp)| Easy|Yes|
 
 
 
@@ -59,5 +64,12 @@ Below is the Leetcode and HackerRank Solutions.
 ## Array
 |S.no | Title | Problem | Solution | Difficulty | Revisit Require |
 |----:|-------|:-------:|---------:|-----------:|----------------:|
-|1| Reversing Array| [Problem](https://www.hackerrank.com/challenges/arrays-ds/problem)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/hacker-rank/reverse_array.cpp)| Easy| |
-|2|Sum of Hour Glass| [Problem](https://www.hackerrank.com/challenges/2d-array/problem)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/hacker-rank/hourglass.cpp)| Easy|Yes|
+|1| Reversing Array| [Problem](https://www.hackerrank.com/challenges/arrays-ds/problem)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/linkedlist/cpp/design_ll.cpp)| Easy | |
+|2|Linked List Cycle | [Problem](https://leetcode.com/problems/linked-list-cycle/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/linkedlist/cpp/cycle1.cpp)| Easy|Yes|
+|3|Linked List Cycle II | [Problem](https://leetcode.com/problems/linked-list-cycle-ii/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/linkedlist/cpp/cycle2.cpp)| Medium |Yes|
+|4| Intersection of Two Linked Lists| [Problem](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Solution]()| Medium |Yes|
+|5| | [Problem]()|[Solution]()| Medium |Yes|
+|6| | [Problem]()|[Solution]()| Medium |Yes|
+|7| | [Problem]()|[Solution]()| Medium |Yes|
+|9| | [Problem]()|[Solution]()| Medium |Yes|
+|10| | [Problem]()|[Solution]()| Medium |Yes|
