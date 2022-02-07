@@ -1,6 +1,4 @@
 #include<iostream>
-#include<unordered_set>
-#include<unordered_map>
 using namespace std;
 
 class Node{
@@ -107,53 +105,23 @@ class MyLinkedList{
         delete delete_node;
         size--;
     }
-    bool unordered_set_isCycle(){
-        unordered_set<Node *>traverse_el;
-        while (head){
-            if (traverse_el.find(head) != traverse_el.end()){
-                return head;
-            }
-            traverse_el.insert(head);
-            head = head->next;
-            
-        }
-        return NULL;
-    }
-    bool unordered_map_isCycle(){
-        unordered_map<Node* , bool>traverse_el;
-        while (head){
-            if (traverse_el[head] == true){ // {{3,true} , {address,true}, {0, address}  
-                return head;
-            }
-            traverse_el[head] = true;
+    Node* removeVal(int val){
+        while (head != NULL && head->data == val){
             head = head->next;
         }
-        return NULL;
-    }
-     Node* flood_cycle2(){
-        Node* slow = head;
-        Node* fast = head;
-        while(fast != NULL){
-            slow = slow-{>next;
-            fast = fast-next != NULL ? fast ->next->next: NULL;
-            if (slow == NULL){
-                return NULL;
-            }
-            if (slow == fast){
-                break;
+        if (head == NULL){
+            return head;
+        }
+        Node* temp = head;
+        while(temp->next != NULL){
+            if(temp->next->data == val){
+                temp->next = temp->next->next;
+            } else{
+                temp = temp->next;
             }
         }
-        if (slow != fast){
-            return NULL;
-        }
-        slow = head;
-        while ( slow != fast){
-            slow = slow->next;
-            fast = fast->next;
-        }
-        return slow;
+        return head;
     }
-}
 };
 
 int main(){
@@ -162,11 +130,7 @@ int main(){
     obj->addAtTail(2);
     obj->addAtTail(0);
     obj->addAtTail(-4); 
+    //obj->head ->next ->next->next->next = obj->head->next;
     obj->print_list();
-    obj->head ->next ->next->next->next = obj->head->next;
-    cout << obj->unordered_map_isCycle()<<endl;
-    // obj->print_list();
-    cout << obj->head->data << endl;
-      
     
 }

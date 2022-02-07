@@ -17,6 +17,21 @@ class MyLinkedList{
     MyLinkedList(){
 
     }
+    void reverse(Node* reverse_node){
+        if(!reverse_node){
+            return;
+        }
+        Node* cur = reverse_node;
+        Node* prev = NULL;
+        while(cur){
+            Node* temp = cur->next;
+            cur->next = prev;
+            prev= cur;
+            cur= temp;
+        }
+        head =  prev ;// for this class only
+        //reverse_node = prev; 
+    }
     void addAtHead(int val){
         Node* new_node = new Node(val);
         if (!head){
@@ -115,5 +130,7 @@ int main(){
     obj->addAtTail(-4); 
     //obj->head ->next ->next->next->next = obj->head->next;
     obj->print_list();
+    obj->reverse(obj->head);
+    obj->print_list();  
     
 }
