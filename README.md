@@ -57,12 +57,18 @@ Below is the Leetcode and HackerRank Solutions.
 |1|Design Linked List| [Problem](https://leetcode.com/problems/design-linked-list/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/hacker-rank/reverse_array.cpp)| Easy| |
 |2|Linked List Cycle | [Problem](https://leetcode.com/problems/linked-list-cycle/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/linkedlist/cpp/cycle1.cpp)| Easy|Yes|
 |3|Linked List Cycle II | [Problem](https://leetcode.com/problems/linked-list-cycle-ii/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/linkedlist/cpp/cycle2.cpp)| Medium |Yes|
-|4| Intersection of Two Linked Lists| [Problem](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Solution]()| Medium |Yes|
-|5| | [Problem]()|[Solution]()| Medium |Yes|
-|6| | [Problem]()|[Solution]()| Medium |Yes|
-|7| | [Problem]()|[Solution]()| Medium |Yes|
-|9| | [Problem]()|[Solution]()| Medium |Yes|
-|10| | [Problem]()|[Solution]()| Medium |Yes|
+|4| Intersection of Two Linked Lists| [Problem](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/linkedlist/cpp/intersection_two_list.cpp)| Medium |Yes|
+|5|  Remove Nth Node From End of List| [Problem](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/linkedlist/cpp/remove_nth_node.cpp)| Medium |Yes|
+|6| Reverse Linked List | [Problem](https://leetcode.com/problems/reverse-linked-list/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/linkedlist/cpp/reverse_list.cpp)| Easy | Yes|
+|7| Remove Linked List Elements|[Problem](https://leetcode.com/problems/remove-linked-list-elements/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/linkedlist/cpp/remove_list_elements.cpp)|Easy| |
+|8|  Odd Even Linked List| [Problem](https://leetcode.com/problems/odd-even-linked-list/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/linkedlist/cpp/odd_even.cpp)|Easy|Yes|
+|9|Pallindrome Linked List|[Problem](https://leetcode.com/problems/palindrome-linked-list/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/linkedlist/cpp/pallindrome_linked_list.cpp)|Medium|Yes|
+|10|Merge Two Sorted Lists|[Problem](https://leetcode.com/problems/merge-two-sorted-lists/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/linkedlist/cpp/merge_two_lists.cpp)|Easy| |
+|11|  Add Two Numbers|[Problem](https://leetcode.com/problems/add-two-numbers/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/linkedlist/cpp/add_two_numbers.cpp)|Easy|Yes|
+|12|Rotate List| [Problem](https://leetcode.com/problems/rotate-list/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/linkedlist/cpp/rotate_list.cpp)|Easy|Yes|
+|13|Flatten a Multilevel Doubly Linked List|[Problem](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)|[Solution Not Updated Yet]()|Medium| Yes|
+|14|Copy List with Random Pointer|[Problem](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Solution Not Updated Yet]()|Medium|Yes|
+|15|Design Doubly Linked List|[Problem](https://leetcode.com/problems/design-linked-list/)|[Solution Not Updated Yet]()|Easy||
 
 
 
