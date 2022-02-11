@@ -7,11 +7,10 @@ def quickSort(arr:List[int])->List[int]:
     '''
     if len(arr)  < 2:
         return arr
-    else:
-        pivot = arr[0]
-        less = [x for x in arr[1:] if x <= pivot]
-        greater = [x for x in arr[1:] if x > pivot]
-        return quickSort(less)+ [pivot] + quickSort(greater)
+    pivot = arr[0]
+    less = [x for x in arr[1:] if x <= pivot]
+    greater = [x for x in arr[1:] if x > pivot]
+    return quickSort(less)+ [pivot] + quickSort(greater)
         
-arr = [5, 4, 3, 2, 1, 0]
+arr = [9, 2, 3, 2, 1, 0]
 print(quickSort(arr))
