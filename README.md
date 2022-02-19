@@ -70,7 +70,10 @@ Below is the Leetcode and HackerRank Solutions.
 |14|Copy List with Random Pointer|[Problem](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Solution Not Updated Yet]()|Medium|Yes|
 |15|Design Doubly Linked List|[Problem](https://leetcode.com/problems/design-linked-list/)|[Solution Not Updated Yet]()|Easy||
 
-
+## Heap
+|S.no | Title | Problem | Solution | Difficulty | Revisit Require |
+|----:|-------|:-------:|---------:|-----------:|----------------:|
+|1| Relative Ranks| [Problem](https://leetcode.com/problems/relative-ranks/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/heap/relative_ranks.py)| Easy | |
 
 
 
