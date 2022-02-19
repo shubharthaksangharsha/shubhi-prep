@@ -1,6 +1,22 @@
 from typing import List
 from heapq import heapify, heappop, heappush
 def findRelativeRanks(score: List[int])->List[int]:
+    #Hashmap Approach , TC: O(Nlog(N)), SC: O(N)
+    # dict = {}
+    # new_score = sorted(score, reverse=True)
+    # for i,v in enumerate(new_score):
+    #     if i == 0:
+    #         dict[v] = 'Gold Medal'
+    #     elif i == 1:
+    #         dict[v] = 'Silver Medal'
+    #     elif i == 2:
+    #         dict[v] = 'Bronze Medal'
+    #     else:
+    #         dict[v] = str(i+1)
+    # print(dict)
+    # return [dict[x] for x in score]
+
+    #Heap Approach , TC: O(Nlog(N)), SC: O(N)
     ans = [None for _ in range(len(score))]
     heap, flag = [], 1
     heapify(heap)
