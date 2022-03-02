@@ -1,3 +1,4 @@
+//By Shubharthak
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -67,11 +68,15 @@ void quick_sort(vector<int>&nums, int s, int e){
 int main()
 {
     int n;
+    cout << "Please Enter the number of Elements: ";
     cin >> n;
+    cout << "Please Input the Elements" << endl;
     vector<int>nums(n);
     input(nums);
+    cout << "Before Sorting: " << endl;
     display(nums);
     quick_sort(nums,0, nums.size() -1 );
+    cout << "After Sorting: " << endl;
     display(nums);
 
     return 0;
