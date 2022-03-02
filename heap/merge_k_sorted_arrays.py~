@@ -1,0 +1,22 @@
+import heapq
+from typing import List
+def mergeKArrays(nums: List[int]) -> List[int]:
+    heap = []
+    for i, v in enumerate(nums):
+        if len(v):
+            heapq.heappush(heap, (nums[i][0], i, 0)) 
+    result = []
+    while heap:
+        val, i, col = heapq.heappop(heap)
+        result.append(val)
+        if col != len(nums[i]) - 1:
+            heapq.heappush(heap, (nums[i][col+1], i, col+1))    
+    return result 
+
+n = int(input())
+answer = []
+while n:
+    nums = list(map(int, input().split()))
+    answer.append(nums)
+    n -= 1
+print(mergeKArrays(answer))
