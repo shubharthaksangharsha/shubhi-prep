@@ -47,35 +47,54 @@ class Solution:
         Native Approach using Merge() function
         
         '''
-        if not lists:
-            return None
-        if len(lists) == 1:
-            return lists[0]
-        def merge(l1, l2):
-            if not l1:
-                return l2
-            if not l2:
-                return l1
-            dummy = ListNode(0)
-            head = dummy
-            while l1 and l2:
-                if l1.val <= l2.val:
-                    dummy.next = l1
-                    l1 = l1.next
-                else:
-                    dummy.next = l2
-                    l2 = l2.next
-                dummy = dummy.next
-            if l1: 
-                dummy.next = l1
-            if l2: 
-                dummy.next = l2
-            return head.next
+#        if not lists:
+#            return None
+#        if len(lists) == 1:
+#            return lists[0]
+#        def merge(l1, l2):
+#            if not l1:
+#                return l2
+#            if not l2:
+#                return l1
+#            dummy = ListNode(0)
+#            head = dummy
+#            while l1 and l2:
+#                if l1.val <= l2.val:
+#                    dummy.next = l1
+#                    l1 = l1.next
+#                else:
+#                    dummy.next = l2
+#                    l2 = l2.next
+#                dummy = dummy.next
+#            if l1: 
+#                dummy.next = l1
+#            if l2: 
+#                dummy.next = l2
+#            return head.next
         
-        output = lists[0]
-        for l in lists[1:]:
-            output = merge(output,l)
-        return output
-        
+#        output = lists[0]
+#        for l in lists[1:]:
+#            output = merge(output,l)
+#        return output
+
+        #Using heap: TC: O(NlogK), SC: O(k) where k is total number of lists and N is total number of elements in a list 
+        heap = []
+        for i, v in enumerate(lists):
+            if v:
+                heapq.heappush(heap, (v.val, i))
+                
+        dummy = ListNode(0)
+        head = dummy
+        while heap:
+            v, i = heapq.heappop(heap)
+            dummy.next = ListNode(v)
+            if lists[i].next:
+                 heapq.heappush(heap, (lists[i].next.val, i))
+                 lists[i] = lists[i].next
+            dummy = dummy.next
+            
+        return head.next
+                
+       
 
 
