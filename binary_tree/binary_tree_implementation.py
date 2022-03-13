@@ -1,3 +1,4 @@
+#By Shubharthak
 from typing import List, Optional
 class BinaryTree:
     '''Create a object of Binary Tree'''
@@ -79,7 +80,7 @@ def count_leaf_nodes(root: BinaryTree) -> int:
    input: root: BinaryTree
    output: int
    ''' 
-   return ( count_nodes(root) + 1) // 2
+   return (count_nodes(root) + 1) // 2
 
 def find_node(root: BinaryTree, val: int) -> Optional[BinaryTree]:
     '''
