@@ -74,6 +74,14 @@ Below is the Leetcode and HackerRank Solutions.
 |S.no | Title | Problem | Solution | Difficulty | Revisit Require |
 |----:|-------|:-------:|---------:|-----------:|----------------:|
 |1| Relative Ranks| [Problem](https://leetcode.com/problems/relative-ranks/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/heap/relative_ranks.py)| Easy | |
+|2| Merge K Sorted Lists| [Problem](https://leetcode.com/problems/merge-k-sorted-lists/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/heap/merge_k_sorted_list.py)| Hard | Yes |
+|3| Merge K Sorted Arrays| [Problem (interview bit)](https://www.interviewbit.com/problems/merge-k-sorted-arrays/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/heap/merge_k_sorted_arrays.py)| Hard |Yes |
+|4|Kth Largest Element in a Stream| [Problem](https://leetcode.com/problems/kth-largest-element-in-a-stream/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/heap/kth_largest_element_in_stream.py)| Easy | Yes |
+|5|Top K frequent Elements| [Problem](https://leetcode.com/problems/top-k-frequent-elements/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/heap/revised_topk_frequent_elements.py)| Medium | Yes |
+|6|Top K frequent Words| [Problem](https://leetcode.com/problems/top-k-frequent-words/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/heap/topk_frequent_words.py)| Medium | Yes |
+|7|Find Median from Data Streams| [Problem](https://leetcode.com/problems/find-median-from-data-stream/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/heap/find_median_from_data_stream.py)| Hard | Yes |
+
+
 
 
 
