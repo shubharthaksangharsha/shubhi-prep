@@ -79,8 +79,13 @@ def count_leaf_nodes(root: BinaryTree) -> int:
    Given a binary tree, find how many leaf nodes exists
    input: root: BinaryTree
    output: int
-   ''' 
-   return (count_nodes(root) + 1) // 2
+   '''
+   if root is None:
+       return 0
+   if root.left is None and root.right is None:
+       return 1
+   
+   return count_leaf_nodes(root.left) + count_leaf_nodes(root.right)
 
 def find_node(root: BinaryTree, val: int) -> Optional[BinaryTree]:
     '''
@@ -106,9 +111,11 @@ def find_node(root: BinaryTree, val: int) -> Optional[BinaryTree]:
 '''
 if __name__ == '__main__':
     root = BinaryTree(15, BinaryTree(12, BinaryTree(7), BinaryTree(14)), BinaryTree(27, BinaryTree(20,right=BinaryTree(23)), BinaryTree(88)))
+    test = BinaryTree(1, BinaryTree(2,BinaryTree(3,BinaryTree(4,BinaryTree(5)))))
     # in_order(root)
-    print(count_nodes(root))
-    print(count_leaf_nodes(root))
+    print(f'Leaf Nodes: {count_leaf_nodes(root)}')
+#    print(count_nodes(root))
+#    print(count_leaf_nodes(root))
     
 
 
