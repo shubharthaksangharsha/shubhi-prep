@@ -81,6 +81,14 @@ Below is the Leetcode and HackerRank Solutions.
 |6|Top K frequent Words| [Problem](https://leetcode.com/problems/top-k-frequent-words/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/heap/topk_frequent_words.py)| Medium | Yes |
 |7|Find Median from Data Streams| [Problem](https://leetcode.com/problems/find-median-from-data-stream/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/heap/find_median_from_data_stream.py)| Hard | Yes |
 
+## BinaryTree
+|S.no | Title | Problem | Solution | Difficulty | Revisit Require |
+|----:|-------|:-------:|---------:|-----------:|----------------:|
+|1| Same Tree| [Problem](https://leetcode.com/problems/same-tree/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/binary_tree/isSameTree.py)| Easy | |
+|2| Maximum Depth| [Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/binary_tree/maximum_depth.py)| Easy |Yes |
+|3| Symmetric Tree| [Problem](https://leetcode.com/problems/symmetric-tree/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/binary_tree/Symmetric_Tree.py)| Medium |Yes |
+|4| Path Sum | [Problem](https://leetcode.com/problems/path-sum/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/binary_tree/path_sum.py)| Medium |Yes |
+
 
 
 
