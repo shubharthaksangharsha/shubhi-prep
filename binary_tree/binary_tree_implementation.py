@@ -1,5 +1,6 @@
 #By Shubharthak
 from typing import List, Optional
+from collections import deque, defaultdict
 class BinaryTree:
     '''Create a object of Binary Tree'''
     def __init__(self, val: int, left = None, right = None) -> None:
@@ -12,7 +13,24 @@ class BinaryTree:
         self.val = val
         self.left = left
         self.right = right
-        
+
+def level_order(root: BinaryTree) -> List[List[int]]:
+    '''
+    Return List of List[int] that contains Each Node Values in Level-Order i.e Level by Level aka BFS
+    input: root: BinaryTree
+    output: List[List[int]]
+    '''
+    result = defaultdict(list)
+    q = deque([(root,0)])
+    while q:
+        node, level = q.popleft()
+        if not node: continue
+        result[level].append(node.val)
+        q.append((node.left, level + 1))
+        q.append((node.right, level + 1))
+#    return [result[key] for key in result]
+    return [result[i] for i in range(len(result))]
+
 def in_order(root: BinaryTree) -> None:
     '''
     Print Each Node in In-Order Traversal
@@ -113,7 +131,8 @@ if __name__ == '__main__':
     root = BinaryTree(15, BinaryTree(12, BinaryTree(7), BinaryTree(14)), BinaryTree(27, BinaryTree(20,right=BinaryTree(23)), BinaryTree(88)))
     test = BinaryTree(1, BinaryTree(2,BinaryTree(3,BinaryTree(4,BinaryTree(5)))))
     # in_order(root)
-    print(f'Leaf Nodes: {count_leaf_nodes(root)}')
+    #print(f'Leaf Nodes: {count_leaf_nodes(root)}')
+    print(level_order(root))
 #    print(count_nodes(root))
 #    print(count_leaf_nodes(root))
     
