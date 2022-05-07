@@ -92,7 +92,7 @@ Below is the Leetcode and HackerRank Solutions.
 ## Graphs
 |S.no | Title | Problem | Solution | Difficulty | Revisit Require |
 |----:|-------|:-------:|---------:|-----------:|----------------:|
-|1|Course Schedule| [Problem](https://leetcode.com/problems/course-schedule/)| [Solution]https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/graphs/course_schedule.py)| Medium | Yes |
+|1|Course Schedule| [Problem](https://leetcode.com/problems/course-schedule/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/graphs/course_schedule.py)| Medium | Yes |
 
 
 ## HackerRank Solution
