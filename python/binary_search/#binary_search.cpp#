@@ -26,30 +26,6 @@ int search_iterative(const vector<int>&ivec, int item){
   }
   return -1;
 }
-int search_recursive(const vector<int>&ivec, int low, int high, int item){
-  /*
-    search element recursively and returns the index of searched element, if element not present returns -1
-    input: vector of integer, low integer, high integer, element to be serached
-    output: index of element if present else -1
-  */
-  if (high >= low){
-    int mid = (high + low) / 2;
-    int guess = ivec[mid];
-			
-
-    if (guess == item){
-      return mid;
-    } 
-    if (guess > item){
-      return search_recursive(ivec,low,mid-1,item);
-    }
-    return search_recursive(ivec, mid + 1, high, item);
-  }
-  else{
-    return -1;
-  }
-}
-
 
 void input(vector<int>&nums){
   for(auto &i : nums){
