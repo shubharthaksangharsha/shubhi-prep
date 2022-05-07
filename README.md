@@ -89,8 +89,10 @@ Below is the Leetcode and HackerRank Solutions.
 |3| Symmetric Tree| [Problem](https://leetcode.com/problems/symmetric-tree/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/binary_tree/Symmetric_Tree.py)| Medium |Yes |
 |4| Path Sum | [Problem](https://leetcode.com/problems/path-sum/)| [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/binary_tree/path_sum.py)| Medium |Yes |
 
-
-
+## Graphs
+|S.no | Title | Problem | Solution | Difficulty | Revisit Require |
+|----:|-------|:-------:|---------:|-----------:|----------------:|
+|1|Course Schedule| [Problem](https://leetcode.com/problems/course-schedule/)| [Solution]https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/graphs/course_schedule.py)| Medium | Yes |
 
 
 ## HackerRank Solution
