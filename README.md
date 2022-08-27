@@ -3,6 +3,13 @@
 Below is the Leetcode and HackerRank Solutions.
 
 ## LeetCode Solution
+
+## Basics 
+|S.no | Title      | Problem        | Solution      |  Difficulty | Revisit Require |
+|-----:|------------|--------------:|-------------:| ----------:|------------------:|
+|1|Subtract the Product and Sum of Digits of an Integer| [Problem](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/max_cons.cpp)|Easy| |
+|2|  Find Numbers with Even Number of Digits| [Problem](https://leetcode.com/problems/number-of-1-bits/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/leetcode/even_digits.cpp)| Easy| |
+
 ## Array
 |S.no | Title      | Problem        | Solution      |  Difficulty | Revisit Require |
 |-----:|------------|--------------:|-------------:| ----------:|------------------:|
