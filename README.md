@@ -9,6 +9,8 @@ Below is the Leetcode and HackerRank Solutions.
 |-----:|------------|--------------:|-------------:| ----------:|------------------:|
 |1|Subtract the Product and Sum of Digits of an Integer| [Problem](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/basics/subtract_the_sum_and_product_of_digits.cpp)|Easy| |
 |2|  Find Numbers with Even Number of Digits| [Problem](https://leetcode.com/problems/number-of-1-bits/)|[Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/basics/number_of_1_bits.cpp)| Easy| |
+|3| Reverse a Number | [Problem](https://leetcode.com/problems/reverse-integer/) | [Solution](https://github.com/shubharthaksangharsha/shubhi-prep/blob/main/mycodes/basics/reverse.cpp)|Easy| |
+|4| Bitwise Complimenet|
 
 ## Array
 |S.no | Title      | Problem        | Solution      |  Difficulty | Revisit Require |
