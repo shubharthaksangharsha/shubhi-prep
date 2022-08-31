@@ -1,0 +1,41 @@
+Data transofrmation is a technique used to convert a raw data into suitable format that is efficiently easies data mining and retrieve stategic information 
+
+1) Data smoothening: this method is used for removing the noise from the dataset. 
+2) Noise is distorted and  meaningless data wihhtin a data and the noise is removed from the data using the technique such as bining, clustering, etc.
+3) Data Aggregation: Aggregation is the process of collecting the data from a variety of sources and sorting it in a single format. Here, data is collected, stored, analysed and present in a report or summary format. 
+
+4) Attribute Construction: in this method, new attributes are created from an existing set of attributes. 
+
+5) Normalization: normalizing the data, referred to scaling the data values to a much smaller range such as -1 to 1 or 0.0 to 1.0.
+There are different methods 
+a) Min-Max normalization 
+b) Z-score normalization
+c) Decimal scaling 
+
+a) Min-Max normalization: in this technique of data normalization, transofrmation is performed on the orginal data. Minimum and Maximum values from the data is fetched and each value is replaced according to the formula
+
+v' =  (V - min(A) / max(A) - min(A) ) * new_max(A) - new_min(A) + new_min(A)
+A = attribute  data 
+Min(A) Max(A) = minimum and maximum value of A represent 
+V' = new value of each entry in data 
+V = old 
+
+
+ new_max(A), new_min(A) - max A min value of range respectively
+
+ exxample* we have $1200 and $9800 as the minimum  and maximum value for the attribute income and [00, 10] in the range in which we have to map a value $73600 
+ n = 7360
+
+>>> top = (n - min) * ((1.0  - 0.0) + 0.0)
+>>> top / (max - min)
+0.7162790697674418
+
+ z-score nomralization: 
+ in this technique, values are normalized based on mean and standard deviation, 
+
+ v' = (v - mean(a)) / std(a)
+ -> v' and v is the new and old of each entry in data respectively
+
+ -> A & A' is the standard deviation and mean of A respectively 
+
+ Example -> we have a mean and standard deviation for attribute A as 54000 and 16000 and we have to normalize  73600
