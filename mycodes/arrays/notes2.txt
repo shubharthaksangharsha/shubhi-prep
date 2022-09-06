@@ -1,0 +1,15 @@
+1 - Discuss the role of access specifier in inherticance and show their usuablity when they are inherited as public, private and protected 
+
+2 - Demonstrate the working of push and pop operation of stack 
+
+3 - What is the need of balanced binary search tree? Define Avial Tree  ?
+
+4 - What is Priority Queue 
+
+5 - Define the following
+a) Linear search
+b) Binary search
+c) Internal sorting 
+d) External Sorting
+
+
